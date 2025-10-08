@@ -1,3 +1,19 @@
+
+
+
+/* phablet size - >580px */
+@media screen and (min-width:580px){
+     .social-networks .btn {
+        width: 30%;
+    }
+    .presentation img{
+        /* display: inline; */
+        margin: 0 1rem 0 0;
+        float: inline-start;
+    }
+}
+/* phablet size - end */
+
 /* tablet size - 768-992 px */
 
 @media screen and (min-width:770px){
@@ -29,19 +45,13 @@
         width: calc(100% / 3 );
     }
     
-    .social-networks .btn {
-        width: 30%;
-    }
+   
      
     .ads{
         display: inline-block;
     }
 
-    .presentation img{
-        /* display: inline; */
-        margin: 0 1rem 0 0;
-        float: inline-start;
-    }
+    
     
 }
 
