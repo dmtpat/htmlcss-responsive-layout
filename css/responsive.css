@@ -1,0 +1,54 @@
+/* tablet size - 768-992 px */
+
+@media screen and (min-width:770px){
+    
+    #topbar{
+        justify-content: flex-start;
+    }
+    /* #logo{
+        font-size: 4rem;
+    } */
+    
+    .recipe-origin{
+        display: inline;
+    }
+    
+    .recipe-name{
+        font-size: 2rem;
+    }
+
+    main{
+        padding: 30px;
+    }
+    .quick-notes ul{
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: space-between; */
+    }
+    .quick-notes li{
+        width: calc(100% / 3 );
+    }
+    
+    .social-networks .btn {
+        width: 30%;
+    }
+     
+    .ads{
+        display: inline-block;
+    }
+
+    .presentation img{
+        /* display: inline; */
+        margin: 0 1rem 0 0;
+        float: inline-start;
+    }
+    
+}
+
+/* tablet size - end */
+
+/* desktop size - 992px + */
+
+
+
+/* desktop size - end */
