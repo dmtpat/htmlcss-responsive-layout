@@ -48,7 +48,40 @@
 /* tablet size - end */
 
 /* desktop size - 992px + */
+@media screen and (min-width:990px){
+    .recipe-name{
+        font-size: 3rem;
+    }
 
+    .quick-notes ul{
+        display: inline;
+        flex-wrap: nowrap;
+        /* justify-content: space-between; */
+    } 
+    .recipe-card{
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+    }
+    .recipe-video{
+        height: auto;
+        width: 80%;
+        
+    }
+    .recipe-video iframe {
+        display: inline-block;
+    }
+    .recipe-info{
+        border: solid 1px;
+        white-space: nowrap;
+        padding-bottom: 10rem;
+        /* justify-self: flex-end; */
+        
+    }
+    .social-networks .label {
+	    display: inline-block;
+}
+}
 
 
 /* desktop size - end */
