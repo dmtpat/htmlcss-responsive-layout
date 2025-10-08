@@ -2,6 +2,8 @@
 
 
 /* phablet size - >580px */
+
+/* action for all screen width >580px */
 @media screen and (min-width:580px){
      .social-networks .btn {
         width: 30%;
@@ -16,19 +18,9 @@
 
 /* tablet size - 768-992 px */
 
-@media screen and (min-width:770px){
-    
-    #topbar{
-        justify-content: flex-start;
-    }
-    /* #logo{
-        font-size: 4rem;
-    } */
-    
-    .recipe-origin{
-        display: inline;
-    }
-    
+@media screen and (min-width:770px) and (max-width:990px) {
+
+/* action for all screen width 770px> x >990px  */
     .recipe-name{
         font-size: 2rem;
     }
@@ -43,21 +35,32 @@
     }
     .quick-notes li{
         width: calc(100% / 3 );
-    }
+    }    
+}
+/* action for all screen width >770px */
+@media screen and (min-width:770px){
     
-   
-     
-    .ads{
+    #topbar{
+        justify-content: flex-start;
+    }
+    /* #logo{
+        font-size: 4rem;
+    } */
+    
+    .recipe-origin{
+        display: inline;
+    }
+     .ads{
         display: inline-block;
     }
 
-    
-    
 }
 
 /* tablet size - end */
 
 /* desktop size - 992px + */
+
+/* action for all screen width >992px */
 @media screen and (min-width:990px){
     .recipe-name{
         font-size: 3rem;
